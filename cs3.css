@@ -1,0 +1,277 @@
+body{
+	font-family: "Open Sans", sans-serif;
+	background-color:#2b2e4a ;
+
+}
+div.cont{
+	display: flex;
+	flex-direction: column;
+}
+div.reminder{
+	display: flex;
+	flex-direction: column;
+}
+header{
+	background-color: black;
+	position: relative;
+	display: flex;
+	position:sticky;
+	top: 0;
+	z-index: 5;
+}
+.navbar {
+	overflow: hidden;
+	display: flex;
+	background-color: transparent;
+  }
+  
+  .navbar a {
+	
+	flex-direction: row;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 15px 16px;
+	text-decoration: none;
+	
+  }
+  
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 15px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 10;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 20px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+ a.signUp{
+padding: 15px;
+position: absolute;
+text-align: right;
+right: 0px;
+background-color: red;
+text-decoration: none;
+color: white;
+border-radius: 7px;
+font-weight: bold;
+z-index: 9;
+
+
+
+}
+aside{
+	padding-top: 60px;
+	width:100%;
+	min-height: 900px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+aside h1 {
+	text-align: center;
+	color: darkgrey;
+	font-size: 6vw;
+}
+aside h1 span{
+	color: red;
+}
+aside h2{
+	text-align: center;
+	font-size: 6vw;
+	color: azure;
+}
+div.imgGalry{
+display: flex;
+justify-content:  space-around;
+flex-wrap: wrap;
+flex-direction:row;
+
+}
+.imgG{
+	width: 300px;
+	height: 300px;
+	border:1px solid #ccc;
+	box-shadow: 6px -3px 6px 2px red;
+	cursor: pointer;
+	opacity: .7;
+	transition-duration: .5s;
+}
+.imgG:hover{
+	opacity: 1;
+}
+.textofgalary{
+	color: white;
+}
+div img{
+width: 200px;
+height: 200px;
+padding-left: 17%;
+padding-top: 14%;
+}
+div p{
+	text-align: center;
+}
+form{
+	margin-left: 33%;
+}
+fieldset{
+	width: fit-content;
+}
+input { 
+	overflow: visible;
+	border: 1px solid #00bcd4;
+	outline: none;
+	color: white;
+	background-color: transparent;
+  }
+legend{
+	color: white;
+}
+footer{
+	margin-top: 20px;
+	text-align: center;
+	background-color:#252424;
+	color: blanchedalmond;
+    height: 20px;
+    padding: 30px;
+}
+footer span{
+	color:red;
+	
+}
+
+@media screen and (max-width:768px) {
+	
+		div.navbar{
+			display: flex;
+			flex-direction: column;
+			width: 20%;
+		}
+		.navbar a{
+			padding:25px 0px;
+width: 100%;
+		}
+		.dropdown .dropbtn{
+			padding: 25px 0px;
+			width: 100%;
+		}
+	nav.nava{
+		
+		background-size: 768px;
+		height: 76vh;
+	}
+	div.cont{
+		display: flex;
+		flex-direction: row;
+	}
+	 ul{
+		flex-direction: column;
+		width: 20%;
+		z-index: 7;
+	}
+	ul li{
+		padding: 15px 0px;
+		text-align: center;
+		width: 100%;
+	}
+	div.reminder{
+		width: 80%;
+	}
+	div.imgGalry{
+		height: 1000px;
+	}
+	.imgG{
+	width: 230px;
+	margin-top: 20px;
+	
+	}
+	li{
+		width: 100%;
+	}
+	
+div img{
+	width: 150px;
+	height: 200px;
+
+}
+a.signUp {
+	padding: 15px;}
+	
+}
+@media screen and (max-width:425px){
+	div.cont{
+		display: flex;
+		flex-direction: column;
+	}
+	 div.navbar{
+		flex-direction: column;
+		width: 100%;
+		z-index: 7;
+		
+	}
+	div.navbar a{
+		width: 100%;
+		padding: 15px;
+	}
+	div.imgGalry{
+		height: 1000px;
+	}
+	nav div.textTitle{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,0%);
+		z-index: 3;
+		color: white;
+		
+
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		right: 33%;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 10;
+		}
+	
+}
