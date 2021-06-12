@@ -151,6 +151,8 @@ div p{
 }
 form{
 	margin-left: 33%;
+	width: fit-content;
+	
 }
 fieldset{
 	width: fit-content;
