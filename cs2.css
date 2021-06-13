@@ -20,6 +20,24 @@ nav{
 	display: flex;
 	background-color: transparent
   }
+  a.signUp{
+	padding: 25px;
+	position: absolute;
+	text-align: right;
+	right: 0px;
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	border-radius: 7px;
+	font-weight: bold;
+	z-index: 9;
+	
+	
+	
+	}
+	 a.signUp:hover{
+		background-color: red;
+	}
   
   .navbar a {
 	
