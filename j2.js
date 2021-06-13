@@ -74,7 +74,7 @@ function validation(){
     }
 
     pass2Text.style.display = "none";
-alert("Welcome to the Cars world");
+alert("Welcome to libary");
    
     
 }
